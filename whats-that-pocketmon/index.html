@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>untitled</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+
+<audio class = "audio1" src ="what.mp3" >
+</audio>
+
+
+  <div id="myModal">
+    <div id="modal-content">    
+      <img class ="modalimg" src="img/question/ghost-original.png">
+      <div class ="content">정답</div>
+      <div class ="content1">고우스트</div> 
+      <span class="close"> &times; </span>                                                     
+    </div>
+</div>
+
+<div id="myModal2">
+  <div id="modal-content2">    
+    <div class ="content2">이것도 모름..?</div> 
+    <span class="close2"> &times; </span>                                                     
+  </div>
+</div>
+
+<div id="myModal3">
+  <div id="modal-content3">    
+    <div class ="content3">게임 시작</div> 
+    <span class="close3"> &times; </span>                                                     
+  </div>
+</div>
+
+
+  <section class='dropZone'>
+    <img class="dropBackground" src="img/background.png">
+    <div id = "drop"  class="questZone">
+        <img class="quest" src="img/question/ghost.png">
+        <img class="quest" src="img/question/mewtwo.png">
+        <img class="quest" src="img/question/cat.png">
+        <img class="quest" src="img/question/phantom.png">
+        <img class="quest" src="img/question/pigeon.png">
+    </div>
+  </section>
+  <section class='dragZone'>
+    <h1>질문에 해당하는 포켓몬은 드래그 앤 드롭 해보세요.</h1>
+    <button class ="leftArrow" >&lt;</button>
+    <button class ="rightArrow" >&gt;</button>
+    <div class='answerZone'>
+      <div class="answerFilm">
+        <img class ="answer" draggable="true" src="img/answer/pigeon.png">
+        <img class ="answer" draggable="true" src="img/answer/cat.png">
+        <img class ="answer" draggable="true" src="img/answer/phantom.png">
+        <img class ="answer" draggable="true" src="img/answer/ghost.png">
+        <img class ="answer" draggable="true" src="img/answer/mewtwo.png">
+      </div>
+    </div>
+  </section>
+  <footer>&copy; sleepybird X cogong</footer>
+  <script src="script.js"></script>
+</body>
+</html>
